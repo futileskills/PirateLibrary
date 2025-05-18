@@ -41,14 +41,10 @@
 git clone https://github.com/yourusername/piratelibrary.git /home/pi/piratelibrary
 cd /home/pi/piratelibrary
 
-# Run the main script once:
+## Run the main script once:
 sudo python3 piratelibrary.py
 
-# This will:
-# - Configure and start the Wi-Fi access point and DHCP server.
-# - Launch the file server with upload/download UI.
-# - Install and enable a systemd service for auto-start on reboot.
 
-# Reboot your Pi:
+## Reboot your Pi:
 sudo reboot
 
