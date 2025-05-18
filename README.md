@@ -38,7 +38,7 @@
    sudo systemctl stop dnsmasq
 
 # Clone the PirateLibrary repo to your Pi:
-git clone https://github.com/yourusername/piratelibrary.git /home/pi/piratelibrary
+git clone https://github.com/futileskills/PirateLibrary.git /home/pi/piratelibrary
 cd /home/pi/piratelibrary
 
 ## Run the main script once:
@@ -47,4 +47,7 @@ sudo python3 piratelibrary.py
 
 ## Reboot your Pi:
 sudo reboot
+
+Once your Pi reboots, the PirateLibrary Wi-Fi access point will be active. Connect your device to the network named PirateLibrary, then open a web browser and navigate to http://192.168.4.1 to access the file upload/download interface.
+
 
